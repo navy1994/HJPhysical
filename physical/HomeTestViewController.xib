@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeTestViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="食方生活健康测试平台" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqj-RE-hOa">
+                    <rect key="frame" x="30" y="120" width="540" height="92"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="92" id="dj2-Bl-DwX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fqu-yO-eyx" userLabel="view1">
+                    <rect key="frame" x="20" y="257" width="560" height="233"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I94-7K-0Sx" userLabel="体质测试按钮">
+                            <rect key="frame" x="30" y="30" width="235" height="67"/>
+                            <state key="normal" image="tizhi.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickTizhi:" destination="-1" eventType="touchUpInside" id="uq4-vN-fm6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yz5-1h-lHh" userLabel="纤体测试按钮">
+                            <rect key="frame" x="295" y="30" width="235" height="67"/>
+                            <state key="normal" image="xianti.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickXianti:" destination="-1" eventType="touchUpInside" id="dUj-7H-dhZ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0I-Vg-fb7" userLabel="BMI测试按钮">
+                            <rect key="frame" x="30" y="117" width="235" height="66"/>
+                            <state key="normal" image="bmi.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickBMI:" destination="-1" eventType="touchUpInside" id="00b-Q5-KsC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tii-xU-tPY" userLabel="肤质测试按钮">
+                            <rect key="frame" x="295" y="117" width="235" height="66"/>
+                            <state key="normal" image="fuzhi.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickFuzhi:" destination="-1" eventType="touchUpInside" id="PJh-KR-Owk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="e0I-Vg-fb7" firstAttribute="top" secondItem="I94-7K-0Sx" secondAttribute="bottom" constant="20" id="18r-oJ-ol0"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="width" secondItem="e0I-Vg-fb7" secondAttribute="width" id="9Ln-QS-UHi"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="height" secondItem="Yz5-1h-lHh" secondAttribute="height" id="9Mr-p2-8zb"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="leading" secondItem="fqu-yO-eyx" secondAttribute="leading" constant="30" id="B2v-Me-Qfh"/>
+                        <constraint firstAttribute="bottom" secondItem="e0I-Vg-fb7" secondAttribute="bottom" constant="50" id="IVI-8Z-gTl"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="width" secondItem="Yz5-1h-lHh" secondAttribute="width" id="NMK-rn-TYI"/>
+                        <constraint firstItem="Yz5-1h-lHh" firstAttribute="leading" secondItem="tii-xU-tPY" secondAttribute="leading" id="Q6K-aP-6Ex"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="top" secondItem="fqu-yO-eyx" secondAttribute="top" constant="30" id="bNq-UW-MBj"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="height" secondItem="e0I-Vg-fb7" secondAttribute="height" id="buk-pR-OKa"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="leading" secondItem="e0I-Vg-fb7" secondAttribute="leading" id="gJB-5H-cXJ"/>
+                        <constraint firstItem="e0I-Vg-fb7" firstAttribute="top" secondItem="tii-xU-tPY" secondAttribute="top" id="mgp-fa-h8x"/>
+                        <constraint firstItem="I94-7K-0Sx" firstAttribute="top" secondItem="Yz5-1h-lHh" secondAttribute="top" id="n5T-Gs-Zzh"/>
+                        <constraint firstItem="Yz5-1h-lHh" firstAttribute="leading" secondItem="I94-7K-0Sx" secondAttribute="trailing" constant="30" id="paj-Yu-clY"/>
+                        <constraint firstItem="Yz5-1h-lHh" firstAttribute="height" secondItem="tii-xU-tPY" secondAttribute="height" id="tGd-XA-pLf"/>
+                        <constraint firstAttribute="trailing" secondItem="Yz5-1h-lHh" secondAttribute="trailing" constant="30" id="vFv-YE-6my"/>
+                        <constraint firstItem="Yz5-1h-lHh" firstAttribute="width" secondItem="tii-xU-tPY" secondAttribute="width" id="w1i-b5-szT"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上海科文麦格里实业有限公司版权所有" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o29-pz-RyN">
+                    <rect key="frame" x="30" y="560" width="540" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="gZx-QB-8wk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="highlightedColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fqu-yO-eyx" secondAttribute="trailing" constant="20" id="6ZF-pm-sOf"/>
+                <constraint firstItem="fqu-yO-eyx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="9Tp-UN-BVL"/>
+                <constraint firstAttribute="bottom" secondItem="fqu-yO-eyx" secondAttribute="bottom" constant="110" id="Afp-iH-HME"/>
+                <constraint firstItem="gqj-RE-hOa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="Lc8-IO-Ouz"/>
+                <constraint firstItem="fqu-yO-eyx" firstAttribute="top" secondItem="gqj-RE-hOa" secondAttribute="bottom" constant="45" id="PVz-OM-4aB"/>
+                <constraint firstAttribute="trailing" secondItem="gqj-RE-hOa" secondAttribute="trailing" constant="30" id="o36-y7-8BB"/>
+                <constraint firstItem="o29-pz-RyN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="ovY-or-6lP"/>
+                <constraint firstAttribute="bottom" secondItem="o29-pz-RyN" secondAttribute="bottom" constant="20" id="ppW-c9-SYP"/>
+                <constraint firstAttribute="trailing" secondItem="o29-pz-RyN" secondAttribute="trailing" constant="30" id="vQc-u5-TgM"/>
+                <constraint firstItem="gqj-RE-hOa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="120" id="vy9-8n-3Tb"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="bmi.png" width="132" height="42"/>
+        <image name="fuzhi.png" width="132" height="42"/>
+        <image name="tizhi.png" width="132" height="42"/>
+        <image name="xianti.png" width="132" height="42"/>
+    </resources>
+</document>

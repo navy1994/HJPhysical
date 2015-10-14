@@ -1,0 +1,25 @@
+//
+//  PhysicalPrefix.pch
+//  physical
+//
+//  Created by mac- t4 on 15/7/2.
+//  Copyright (c) 2015年 mac- t4. All rights reserved.
+//
+
+#ifndef physical_PhysicalPrefix_pch
+#define physical_PhysicalPrefix_pch
+#import "Chameleon.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/* 打印 */
+//DEBUG  模式下打印日志,当前行
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+#define fDeviceWidth ([UIScreen mainScreen].bounds.size.width)
+#define fDeviceHeight ([UIScreen mainScreen].bounds.size.height)
+
+#endif
