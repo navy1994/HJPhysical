@@ -75,7 +75,6 @@
 		04C9CAA81B46155C00323155 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C9CAA71B46155C00323155 /* ResultViewController.m */; };
 		04D99DC11B4B5BC3008D3F8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D99DC01B4B5BC3008D3F8E /* CoreGraphics.framework */; };
 		04D99DDA1B4BC7A6008D3F8E /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D99DD91B4BC7A6008D3F8E /* ResultView.m */; };
-		04D9AB831B675D7300AF0EC6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D9AB821B675D7300AF0EC6 /* MBProgressHUD.m */; };
 		04DE546F1B4A68E300C3052C /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE546E1B4A68E300C3052C /* Question.m */; };
 		04DE54731B4A755600C3052C /* NTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE54721B4A755600C3052C /* NTChartView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		04E164201B4CB61700DEE83D /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1641F1B4CB61700DEE83D /* Result.m */; };
@@ -116,6 +115,7 @@
 		04E164781B4CE08000DEE83D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E164771B4CE08000DEE83D /* Accounts.framework */; };
 		04E1647A1B4CE08B00DEE83D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E164791B4CE08B00DEE83D /* MessageUI.framework */; };
 		04E1647C1B4CE0B200DEE83D /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E1647B1B4CE0B200DEE83D /* libstdc++.dylib */; };
+		8CA79ED509F1DD55BE05BE9C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A60B3FF10D8FDFD5332140E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -233,8 +233,6 @@
 		04D99DC01B4B5BC3008D3F8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		04D99DD81B4BC7A6008D3F8E /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
 		04D99DD91B4BC7A6008D3F8E /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
-		04D9AB811B675D7300AF0EC6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		04D9AB821B675D7300AF0EC6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		04DE546D1B4A68E300C3052C /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		04DE546E1B4A68E300C3052C /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		04DE54711B4A755600C3052C /* NTChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTChartView.h; sourceTree = "<group>"; };
@@ -285,6 +283,9 @@
 		04E164771B4CE08000DEE83D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		04E164791B4CE08B00DEE83D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		04E1647B1B4CE0B200DEE83D /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		0A60B3FF10D8FDFD5332140E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C6ECBDC52049EACE5097B2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8673F87E4706B788640A66CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -324,6 +325,7 @@
 				04E164651B4CDF7900DEE83D /* ShareSDKShareActionSheet.framework in Frameworks */,
 				04E164621B4CDF7900DEE83D /* ShareSDK.framework in Frameworks */,
 				04E164561B4CDF7900DEE83D /* TwitterConnection.framework in Frameworks */,
+				8CA79ED509F1DD55BE05BE9C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +379,7 @@
 				04E164661B4CDFAC00DEE83D /* ShareSDKFramework */,
 				04D99DC01B4B5BC3008D3F8E /* CoreGraphics.framework */,
 				043588581B451585001210C5 /* libsqlite3.dylib */,
+				0A60B3FF10D8FDFD5332140E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -607,6 +610,7 @@
 				047FC3E51B44CABB002A635E /* physical */,
 				047FC3FF1B44CABB002A635E /* physicalTests */,
 				047FC3E41B44CABB002A635E /* Products */,
+				983C5479399EE232E98A4E94 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -698,8 +702,6 @@
 			children = (
 				047AB6C51B79C1470057CD91 /* Chameleon */,
 				045EAB201B788D9B00C11D4B /* QRadioButton */,
-				04D9AB811B675D7300AF0EC6 /* MBProgressHUD.h */,
-				04D9AB821B675D7300AF0EC6 /* MBProgressHUD.m */,
 				04DE54711B4A755600C3052C /* NTChartView.h */,
 				04DE54721B4A755600C3052C /* NTChartView.m */,
 				045EAB301B7891DC00C11D4B /* MGLRadioButton.h */,
@@ -826,6 +828,15 @@
 			name = ShareSDKFramework;
 			sourceTree = "<group>";
 		};
+		983C5479399EE232E98A4E94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8673F87E4706B788640A66CF /* Pods.debug.xcconfig */,
+				78C6ECBDC52049EACE5097B2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -833,9 +844,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047FC4061B44CABB002A635E /* Build configuration list for PBXNativeTarget "physical" */;
 			buildPhases = (
+				2B95483F55245D4057A6E2C7 /* Check Pods Manifest.lock */,
 				047FC3DF1B44CABB002A635E /* Sources */,
 				047FC3E01B44CABB002A635E /* Frameworks */,
 				047FC3E11B44CABB002A635E /* Resources */,
+				DCC859D96CF87252ED7C25D8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -960,6 +973,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B95483F55245D4057A6E2C7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC859D96CF87252ED7C25D8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		047FC3DF1B44CABB002A635E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -988,7 +1034,6 @@
 				047AB6D61B79C1B10057CD91 /* UIViewController+Chameleon.m in Sources */,
 				0435884C1B451305001210C5 /* FMDatabasePool.m in Sources */,
 				0435884D1B451305001210C5 /* FMDatabaseQueue.m in Sources */,
-				04D9AB831B675D7300AF0EC6 /* MBProgressHUD.m in Sources */,
 				04DE546F1B4A68E300C3052C /* Question.m in Sources */,
 				04E164221B4CB7BB00DEE83D /* QuizDB.m in Sources */,
 				045EAB171B7856E900C11D4B /* FuzhiViewController.m in Sources */,
@@ -1134,6 +1179,7 @@
 		};
 		047FC4071B44CABB002A635E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8673F87E4706B788640A66CF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai kewenmaigeli industrial co., LTD";
@@ -1160,6 +1206,7 @@
 		};
 		047FC4081B44CABB002A635E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C6ECBDC52049EACE5097B2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Shanghai kewenmaigeli industrial co., LTD";

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50FE83BA-EA56-4FFD-820A-8446E609135C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>physical</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDC3C6E2EEA005936DA4796345913C4EB2178FE7</key>
+		<string>github.com:navy1994/physical.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>physical.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDC3C6E2EEA005936DA4796345913C4EB2178FE7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:navy1994/physical.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDC3C6E2EEA005936DA4796345913C4EB2178FE7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDC3C6E2EEA005936DA4796345913C4EB2178FE7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>physical</string>
+		</dict>
+	</array>
+</dict>
+</plist>

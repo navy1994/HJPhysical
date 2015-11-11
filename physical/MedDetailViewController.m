@@ -40,7 +40,27 @@
     _hud.labelText = @"正在加载";
     [self.view addSubview:_hud];
     
+    UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 40, self.view.frame.size.width, 40)];
+    footerView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin;
+    footerView.backgroundColor = [UIColor whiteColor];
+    footerView.alpha = 0.8;
+    [self.view addSubview:footerView];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0.5, footerView.frame.size.width, footerView.frame.size.height - 0.5)];
+    [button setImage:[UIImage imageNamed:@"message"] forState:UIControlStateNormal];
+    [button setTitle:@"联系客服" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(messageAction) forControlEvents:UIControlEventTouchUpInside];
+    [footerView addSubview:button];
+    [self.view bringSubviewToFront:footerView];
+    
 }
+
+- (void)messageAction
+{
+    
+}
+
 
 - (void)previousToViewController{
     [self.navigationController popViewControllerAnimated:YES];

@@ -1,0 +1,40 @@
+PODS:
+  - DYMRollingBanner (2.1.4):
+    - SDWebImage (~> 3.7.3)
+  - HMSegmentedControl (1.5.2)
+  - Masonry (0.6.3)
+  - MBProgressHUD (0.9.1)
+  - MJExtension (3.0.3)
+  - MJRefresh (3.0.1)
+  - RDVTabBarController (1.1.9)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SVProgressHUD (1.1.3)
+  - UMengAnalytics (3.6.4)
+
+DEPENDENCIES:
+  - DYMRollingBanner (~> 2.1.3)
+  - HMSegmentedControl
+  - Masonry (~> 0.6.2)
+  - MBProgressHUD (~> 0.9.1)
+  - MJExtension
+  - MJRefresh
+  - RDVTabBarController (~> 1.1.9)
+  - SDWebImage (~> 3.7.3)
+  - SVProgressHUD
+  - UMengAnalytics
+
+SPEC CHECKSUMS:
+  DYMRollingBanner: f80589df553906af74834e4c93233fe3e05a8b5f
+  HMSegmentedControl: 83b9686022d2176fb6457d2bdb61e5d6393fed7d
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJExtension: de557e1c48ef3212590d3203764c8003fae68815
+  MJRefresh: ca22bb7197c4a17a0491763773cd5cb106b2a810
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  UMengAnalytics: d24fb5200e13d2874f36b6337bc129b96511c54e
+
+COCOAPODS: 0.38.2
